@@ -4,7 +4,8 @@
   "description": "A starter project for using webpack to build and bundle nodejs application",
   "main": "index.js",
   "scripts": {
-    "build-dev": "webpack --config webpack.config.js"
+    "build-dev": "webpack --config webpack.dev.js",
+    "build-prod": "webpack --config webpack.prod.js"
   },
   "keywords": [
     "nodejs",
@@ -14,8 +15,10 @@
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.63.0",
-    "webpack-cli": "^4.9.1"
+    "webpack-cli": "^4.9.1",
+    "webpack-merge": "^5.8.0"
   }
 }
