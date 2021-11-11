@@ -1,0 +1,21 @@
+{
+  "name": "node-webpack",
+  "version": "1.0.0",
+  "description": "A starter project for using webpack to build and bundle nodejs application",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "nodejs",
+    "webpack"
+  ],
+  "author": "Aakash Jha",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.63.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
